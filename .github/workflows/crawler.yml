@@ -2,7 +2,7 @@ name: Hot News Crawler
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 每60分钟运行一次
+    - cron: '11 6-23/2 * * *'  # 每120分钟运行一次
   workflow_dispatch:
 
 # 添加权限设置
